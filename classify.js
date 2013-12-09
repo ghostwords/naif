@@ -51,7 +51,7 @@ function summarize(data, summary) {
 
 	summary = summary || {};
 
-	bayes.classify(data.pop()[9], function (classification) {
+	bayes.classify(data.pop()[config.data_column_index], function (classification) {
 		if (summary.hasOwnProperty(classification)) {
 			summary[classification]++;
 		} else {
