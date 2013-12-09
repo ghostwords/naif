@@ -1,0 +1,4 @@
+module.exports = {
+	csv_file: 'data/data.csv',
+	data_column_index: 0
+};

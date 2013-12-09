@@ -1,0 +1,12 @@
+{
+	"name": "naif",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"classifier": "latest",
+		"csv": "latest",
+		"inquirer": "latest",
+		"jshint": "2.3.0",
+		"underscore": "1.5.2"
+	}
+}
